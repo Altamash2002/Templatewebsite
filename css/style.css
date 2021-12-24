@@ -1,0 +1,379 @@
+/* font  */
+@font-face {
+    font-family: ubuntu;
+    src: url(../fonts/ubuntu/Ubuntu-Bold.ttf);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: ubuntu; 
+}            
+/* body  */
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+
+/* top bar  */
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;overflow: auto;
+
+}
+#tollfree{
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    margin-top: 5px;
+}
+#social-icon{
+    float: right;
+}
+.fab{
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+.fa-facebook{
+    padding: 7px 7px;
+}
+.fa-whatsapp{
+    padding: 7px 9px;
+}
+.fa-instagram{
+    padding: 7px 9px;
+}
+
+/* logobar */
+#logobar{
+    height: 190px;
+}
+#logobar img{
+    width: 140px;
+    margin: 25px 0px;
+
+}
+
+/* navbar */
+#navbar{
+    background-color: #ee5253;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+#navbar ul li a:hover{
+    color: blueviolet;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Poster */
+#poster{
+    background-image: url(../images/banner.jpg);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    flex-direction: column; 
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Why Us  */
+#whyus{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.red-heading{
+    color: #ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin: 50px;
+}
+.section33{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box; /*isse width me hi padding lagata hai by default alag se padding lagata hai wo*/
+}
+.section33 h2{
+    color: #ee5253;
+}
+.section33 p{
+    color: #363636;
+}
+.section33 img{
+    margin-bottom: 70px;
+   
+}
+
+/* contact */
+
+#contact-container{
+    background-color: #ee5253;    
+    color: white;
+    overflow: auto; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+} 
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 60px;
+}
+#contact-btn{
+    background-color: white;
+    color: #ee5253;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+/* blog  */
+#blog{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.section33 a{
+    color: #ee5253;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: ubuntu; 
+    font-size: 14px;
+}
+
+/* subscribe  */
+#subscribe-section{
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+.section50 h2{
+    font-size: 28px;
+    text-align: right;
+    padding-right: 50px;
+}
+.section50 form{
+    padding-top: 25px;
+}
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    color: #ee5253;
+    font-size: 15px;
+    margin-right: 20px;
+    border: 0px; 
+    width: 45%;
+}
+.section50 input[type="submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #ee5253;
+    border: 0px;
+}
+
+
+
+
+
+/* footer  */
+#imp-link{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0px;
+}
+#footer-menu li{
+    padding-bottom: 8px;
+}
+#footer-menu li a{
+    text-decoration: none ;
+    color: white;
+}
+#footer-menu li a:hover{
+    color: blueviolet;
+}
+#div33-2{
+    padding-left: 120px;
+}
+#div33-1{
+    padding-left: 0px;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: #cbcbcb;
+    padding: 10px;
+}
+
+/* responsive i pad  */
+@media only screen and (max-width: 768px) {
+    #navbar ul li {
+        padding-right: 20px;
+    }
+    .section70 {
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    .section33 {
+        padding-left: 10px;
+    }
+    #div33-2{
+        padding-left: 25px;
+    }
+    #subscribe-section{
+        padding-left: 20px;
+    }
+}
+
+/* responsive mobile  */
+@media only screen and (max-width: 500px){
+    #logobar{
+        text-align: center;
+    }
+    #poster h1 {
+        font-size: 30px;
+    }
+    .section33,.section70,.section30,.section50,.div33{
+        width: 100%;
+    }
+    .section70 {
+        padding-right: 0px;
+        text-align: center;
+    }
+    .section30{
+        padding-top: 20px;
+        ;padding-bottom: 20px;
+    }
+    .section33{
+        padding-bottom: 15px;
+        padding-right: 5px;
+    }
+    .section33 img{
+        margin-bottom: 5px;
+        margin-top: 50px;
+    }
+    #imp-link{
+        text-align: center;
+    }
+    #div33-1{
+        padding-left: 30px;
+        padding-right: 28px;
+        box-sizing: border-box;
+    }
+    #div33-2{
+        padding-right: 23px;
+    }
+    .section50 h2 {
+        text-align: center;
+        padding-right: 0px;
+    }
+    .section50 form {
+        padding-left: 12px;
+    }
+}
+
+/* mobile- menu  */
+
+#navbar ul #mobile-cross, #mobile-bar{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 500px){
+    #navbar {
+        background-color: #ee5253;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+    #navbar ul li {
+        display: block;
+        padding: 18px 0px;
+        padding-right: 35px;
+        border-bottom: 1px solid #d8d1d1;
+        padding-left: 20px;
+    }
+    #mobile-cross{
+        text-align: right;
+    }
+    .fa-times-circle{
+        font-size: 30px;
+    }
+    #navbar{
+        left: -280px;
+        transition: all 0.5s ease;
+    }
+    #mobile-bar{
+        background-color: #ee5253;
+        color: white;
+        padding: 18px;
+        font-size: 26px;
+    }
+    #navbar ul #mobile-cross, #mobile-bar{
+        display: block;
+    }
+    
+}
+
+
+
+
+
